@@ -9,6 +9,6 @@ class VerifyCsrfToken extends Middleware
     protected $addHttpCookie = true;
 
     protected $except = [
-        '/tasks/',
+        '/tasks/*',
     ];
 }
