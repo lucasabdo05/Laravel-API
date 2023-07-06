@@ -1,9 +1,6 @@
 Vídeo explicativo sobre a API: https://youtu.be/vA7SPl689Ko
 
 Documentação da API de Tarefas
-A API de Tarefas fornece endpoints para gerenciar tarefas, permitindo listar, criar, visualizar, atualizar e excluir tarefas. Abaixo está a documentação dos endpoints disponíveis:
-
-Base URL: http://seuservidor.com/api
 
 Listar todas as tarefas
 Retorna uma lista de todas as tarefas cadastradas.
