@@ -16,6 +16,9 @@ id (integer): O ID único da tarefa.
 titulo (string): O título da tarefa.
 descricao (string): A descrição da tarefa.
 status (string): O status da tarefa, que pode ser "concluida" ou "nao_concluida".
+
+
+
 Criar uma nova tarefa
 Cria uma nova tarefa com base nos dados fornecidos.
 
@@ -27,6 +30,9 @@ titulo (string, obrigatório): O título da tarefa.
 descricao (string, obrigatório): A descrição da tarefa.
 status (string, obrigatório): O status da tarefa, que pode ser "concluida" ou "nao_concluida".
 Resposta de sucesso (201 Created): Retorna um JSON com os detalhes da tarefa recém-criada, incluindo o ID único gerado para ela.
+
+
+
 Obter detalhes de uma tarefa
 Retorna os detalhes de uma tarefa específica com base no ID fornecido.
 
@@ -35,6 +41,9 @@ Método: GET
 Parâmetros de URL:
 task (integer, obrigatório): O ID único da tarefa.
 Resposta de sucesso (200 OK): Retorna um JSON com os detalhes da tarefa, incluindo o ID, título, descrição e status.
+
+
+
 Atualizar uma tarefa existente
 Atualiza os dados de uma tarefa existente com base no ID fornecido.
 
@@ -47,6 +56,9 @@ titulo (string, obrigatório): O título atualizado da tarefa.
 descricao (string, obrigatório): A descrição atualizada da tarefa.
 status (string, obrigatório): O status atualizado da tarefa, que pode ser "concluida" ou "nao_concluida".
 Resposta de sucesso (200 OK): Retorna um JSON com os detalhes da tarefa atualizada.
+
+
+
 Excluir uma tarefa
 Exclui uma tarefa com base no ID fornecido.
 
